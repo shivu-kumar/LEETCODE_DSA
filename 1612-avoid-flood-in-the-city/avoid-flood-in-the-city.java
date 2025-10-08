@@ -13,7 +13,7 @@ class Solution {
                 int lake=rains[i];
                 ans[i]=-1;
             if(map.containsKey(rains[i])){
-                Integer dryDay=set.higher(map.get(rains[i]));
+                Integer dryDay=set.ceiling(map.get(rains[i]));
                 if(dryDay==null)
                 return new int[0];
 
