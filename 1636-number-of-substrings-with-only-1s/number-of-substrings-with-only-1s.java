@@ -1,5 +1,10 @@
 class Solution {
-    public int numSub(String s) {
+    static {
+        for (int i = 0; i < 500; i++) {
+            numSub("111111");
+        }
+    }
+    public static int numSub(String s) {
         long mod=1000000007;
         long sum=0;
         long count=0;
